@@ -65,6 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return MaterialApp(
         title: 'Welcome',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: WelcomePage());
+        home: WelcomeScreen());
   }
 }
